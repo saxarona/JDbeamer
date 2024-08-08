@@ -1,9 +1,15 @@
-# Beamer presentation: thesis defense
+# Beamer presentation: JDBeamer (TUM)
 
-These are the translated and slightly changed slides to my thesis defense presentation. I share them to archive some techniques for creating over-engineered overlay specifications, combined with a mixture of TikZ, matplotlib and geospatial visuals.
+A personal fork to use as a basis for presentations, compressed and adapted to my (current) needs.
+
+## Original README
+
+### Beamer presentation: thesis main
+
+These are the translated and slightly changed slides to my thesis main presentation. I share them to archive some techniques for creating over-engineered overlay specifications, combined with a mixture of TikZ, matplotlib and geospatial visuals.
 
 
-## Links
+#### Links
 
   - The thesis ([PDF full text](https://mediatum.ub.tum.de/doc/1285570/1285570.pdf)): [Open Source Modelling and Optimisation of Energy Infrastructure at Urban Scale ](https://mediatum.ub.tum.de/?id=1285570)
   - The models (GitHub repositories):
@@ -12,8 +18,8 @@ These are the translated and slightly changed slides to my thesis defense presen
     * [tum-ens/**dhmin**](https://github.com/tum-ens/dhmin): Mathematical optimisation model for district energy distrubtion networks *(most specific: does cost-benefit trade-off for a single commodity distribution network)*
 
 
-## Preview
+#### Preview
 
-![Slides animated](defense.gif)
+![Slides animated](main.gif)
 
 *Preview via [Converting PDF slides to animated GIFs and videos with ImageMagick](http://phyletica.org/imagemagick/) by [Jamie Oaks](http://github.com/joaks1).*

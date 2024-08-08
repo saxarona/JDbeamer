@@ -1,0 +1,85 @@
+% !TeX spellcheck = en_GB
+\documentclass[english,11pt,aspectratio=1610,xcolor=table]{beamer}
+\input{tex/setup}
+\input{tex/setup-colors}
+\input{tex/setup-settings}
+
+\usetheme{JD}
+\beamertemplatenavigationsymbolsempty
+
+% header fields: usage
+% \field
+%     [short form (footline)]
+%     {long form on title page}
+%
+\title
+    [Short Title]
+    {Long, long, looooong \\ in fact very long title}
+
+\subtitle{Subtitle} % short version unused by this template
+\author
+    [X. Sánchez Díaz]
+    {Xavier F. C. Sánchez Díaz}
+\institute
+    [\hypersetup{urlcolor=jdgrey}%
+     \href{https://www.ntnu.edu/}{NTNU} %
+     \href{https://www.ntnu.edu/ie}{IE} %
+     \href{https://www.ntnu.edu/idi}{IDI}]
+    {Department of Computer Science\\%
+     Faculty of Information Technology and Electrical Engineering\\%
+     Norwegian University of Science and Technology}
+\date
+    [Short date]
+    {Full date goes here}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Outline}
+    \tableofcontents
+\end{frame}
+
+\section{Sample section}
+\label{sec:sample}
+
+\frame{\sectionpage}
+
+% Combinatorial Problems
+\begin{frame}
+	\frametitle{Combinatorial Problems}
+	\framesubtitle{Introduction}
+
+	Combinatorial optimization problems are commonly found in the industry.
+	These problems are usually $\mathcal{NP}$-Hard, and their decision counterparts $\mathcal{NP}$-Complete. \pause
+
+	\vspace{3ex}
+
+	This thesis focuses on
+
+	\begin{itemize}
+		\item Binary Knapsack Problem (0/1 KP) \pause
+		\item Constraint Satisfaction Problem (CSP)
+	\end{itemize}
+\end{frame}
+
+% % References slide is not always needed but just uncomment if you want
+% \begin{frame}[t, allowframebreaks]{References}
+% 	\tiny
+% 	\bibliography{tex/bib} % put your bib file in tex/
+% 	\bibliographystyle{plain}
+% \end{frame}
+
+\section*{}
+
+% % Thank you slide is not always needed but just uncomment if you want
+% \begin{frame}[c, plain]
+% 	\begin{center}
+% 	\Huge \textbf{Thank you!}
+% 	\end{center}
+% 	\begin{center}
+% 	\large Any questions?
+% 	\end{center}
+% \end{frame}
+
+\end{document}
